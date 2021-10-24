@@ -18,7 +18,7 @@ To build your own Chromium browser:
 6. Open browser and go to: https://github.com/open-quantum-safe/oqs-demos.git
 7. Click Code -> Download ZIP -> Save to Downloads directory
 8. *cd /home/rsingh9/Downloads*
-9. *unzip oqs-demos-main.zip
-10. *cd cd oqs-demos-main/chromium/scripts/*
+9. *unzip oqs-demos-main.zip*
+10. *cd oqs-demos-main/chromium/scripts/*
 11. *export PROJECT=/home/rsingh9/pqc_chromium*
 12. *./master.sh*
