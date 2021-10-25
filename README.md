@@ -22,3 +22,4 @@ To build your own Chromium browser:
 10. *cd oqs-demos-main/chromium/scripts/*
 11. *export PROJECT=/home/rsingh9/pqc_chromium*
 12. *./master.sh*
+13. Start chrome: *nohup /home/rsingh9/pqc_chromium/src/out/Default/chrome&*
