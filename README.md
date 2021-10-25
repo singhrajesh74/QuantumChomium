@@ -1,4 +1,4 @@
-# QuantumChomium
+# Open Quantum Safe Chomium Build
 Open Quantum Safe Chromium Browsers
 
 I created this to help test Open Quantum Safe Cryptograhy.
