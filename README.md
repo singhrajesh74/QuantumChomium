@@ -19,7 +19,7 @@ To build your own Chromium browser:
 7. Click Code -> Download ZIP -> Save to Downloads directory
 8. *cd /home/rsingh9/Downloads*
 9. *unzip oqs-demos-main.zip*
-10. *cd oqs-demos-main/chromium/scripts/*
+10. *cd /home/rsingh9/Downloads/oqs-demos-main/chromium/scripts/*
 11. Edit build_options.sh, so it looks like this:
 <br>*#!/bin/bash
 <br>  cd $CHROMIUM_ROOT
