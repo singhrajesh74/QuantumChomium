@@ -27,7 +27,7 @@ To build your own Chromium browser:
 <br>  mkdir -p out/Default
 <br>  echo "enable_nacl=false" >> out/Default/args.gn
 <br>  echo "use_debug_fission=false" >> out/Default/args.gn
-<br>  echo "is_clang=false" >> out/Default/args.gn
+<br>  #echo "is_clang=false" >> out/Default/args.gn
 <br>  echo "blink_symbol_level=0" >> out/Default/args.gn
 <br>  #echo "CCACHE_BASEDIR=/home/ubuntu" >> out/Default/args.gn
 <br>  echo "is_debug=false" >> out/Default/args.gn
@@ -36,7 +36,7 @@ To build your own Chromium browser:
 
 13. *export PROJECT=/home/rsingh9/pqc_chromium*
 14. *./master.sh*
-15. Start chrome: *nohup /home/rsingh9/pqc_chromium/src/out/Default/chrome&*
+15. Verify if chrome works: *nohup /home/rsingh9/pqc_chromium/src/out/Default/chrome&*
 16. Save Chrome to a tar file for reuse elsewhere
 <br>*cd /home/rsingh9/pqc_chromium/src/out/Default
 <br>tar -cvzf pqc_chromium.tar.gz --exclude='obj/*' --exclude='gen/*' --exclude=v8_context_snapshot_generator --exclude=mksnapshot --exclude=make_top_domain_list_variables --exclude=toolchain.ninja --exclude='\*\_\_pycache\_\_\*' .*
