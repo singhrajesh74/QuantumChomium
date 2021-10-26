@@ -17,10 +17,9 @@ To build your own Chromium browser:
 <br> *Defaults timestamp_timeout=3600*
 6. Open browser and go to: https://github.com/open-quantum-safe/oqs-demos.git
 7. Click Code -> Download ZIP -> Save to Downloads directory
-8. *cd /home/rsingh9/Downloads*
-9. *unzip oqs-demos-main.zip*
-10. *cd /home/rsingh9/Downloads/oqs-demos-main/chromium/scripts/*
-11. Edit build_options.sh, so it looks like this:
+8. *unzip /home/rsingh9/Downloads/oqs-demos-main.zip*
+9. *cd /home/rsingh9/Downloads/oqs-demos-main/chromium/scripts/*
+10. Edit build_options.sh, so it looks like this:
 <br>*#!/bin/bash
 <br>  cd $CHROMIUM_ROOT
 <br>  rm -f out/Default/args.gn
