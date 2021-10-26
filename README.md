@@ -14,7 +14,7 @@ To build your own Chromium browser:
 4. *reboot*
 5. *sudo visudo*
 <br>Then change the timeout value. For example :
-<br> *Defaults timestamp_timeout=360*
+<br> *Defaults timestamp_timeout=3600*
 6. Open browser and go to: https://github.com/open-quantum-safe/oqs-demos.git
 7. Click Code -> Download ZIP -> Save to Downloads directory
 8. *cd /home/rsingh9/Downloads*
