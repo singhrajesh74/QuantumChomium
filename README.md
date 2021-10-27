@@ -39,4 +39,4 @@ To build your own Chromium browser:
 15. Verify if chrome works: *nohup /home/rsingh9/pqc_chromium/src/out/Default/chrome&*
 16. Save Chrome to a tar file for reuse elsewhere
 <br>*cd /home/rsingh9/pqc_chromium/src/out/Default
-<br>tar -cvzf pqc_chromium.tar.gz --exclude='obj/*' --exclude='gen/*' --exclude=v8_context_snapshot_generator --exclude=mksnapshot --exclude=make_top_domain_list_variables --exclude=toolchain.ninja --exclude='\*\_\_pycache\_\_\*' .*
+<br>tar -cvzf pqc_chromium.tar.gz --exclude='obj/\*' --exclude='gen/\*' --exclude=v8_context_snapshot_generator --exclude=mksnapshot --exclude=make_top_domain_list_variables --exclude=toolchain.ninja --exclude='\*\_\_pycache\_\_\*' .*
