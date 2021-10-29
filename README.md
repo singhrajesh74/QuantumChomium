@@ -4,10 +4,10 @@ Open Quantum Safe Chromium Browsers
 I created this to help test Open Quantum Safe Cryptograhy.
 <br>The main Github for this project is here: https://github.com/open-quantum-safe/oqs-demos
 <br>If you wanted a pre-built OQS Browser, get it here:
-- Ubuntu: https://github.com/open-quantum-safe/oqs-demos/releases/download/v0.4.0/chromium-ubuntu-0.4.0.tgz
+- Ubuntu: https://github.com/open-quantum-safe/oqs-demos/releases/
 - Windows: https://github.com/andrew-nash/oqs-demos/releases/download/v0.1-alpha/windows-release.zip
 
-To build your own Chromium browser:
+To compile your own Chromium browser:
 1. Build a Ubuntu Server with 100GB free.
 2. *sudo upgrade*
 3. *sudo update*
